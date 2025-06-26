@@ -15,9 +15,7 @@ PiScanner 检测的目标包含了Generative AI APP 封装性较强的API接口�
 - ⚙️ **灵活配置**: 支持自定义Agent配置、测试样本和评估模型
 
 ## 视频演示
-```HTML
-<video src="https://github.com/user-attachments/assets/a2bba697-746b-403a-a92e-02a5557338b2" controls="controls" width="500" height="300"></video>
-```
+![Sample](https://github.com/Holidaynosec/PiScanner/blob/main/sample.gif)
 *演示视频展示了PiScanner的完整使用流程，包括配置设置、运行检测和结果分析。*
 
 **对抗性提示词数据集推荐**
