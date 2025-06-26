@@ -49,7 +49,7 @@ pip install -r requirements.txt
 | `model_name` | string | ✅ (Ollama) | Ollama模型名称 |
 | `endpoint` | string | ✅ (Ollama) | API端点路径 |
 | `api_key` | string | ✅ (OpenAI) | OpenAI API密钥 |
-| `model` | string | ✅ | 模型名称 |
+| `model` | string | ✅ (OpenAI) | 模型名称 |
 
 
 **重要注意事项:**
@@ -67,7 +67,6 @@ pip install -r requirements.txt
 | `model` | string | ✅ | 评估模型名称 |
 | `api_key` | string | ✅ (OpenAI) | OpenAI API密钥 |
 | `url` | string | ✅ (OpenAI) | OpenAI API地址 |
-| `model` | string | ✅ | 模型名称 |
 | `api_base` | string | ✅ (Ollama) | Ollama API基础地址 |
 | `system_prompt` | string | ✅ | 系统提示词，定义评估器角色和任务 |
 | `assistant_prompt` | string | ✅ | 助手提示词，定义评估格式和示例 |
