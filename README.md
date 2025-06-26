@@ -1,5 +1,5 @@
 # PiScanner   
-- AI Red Teaming –– Prompt Injection Scanner
+# AI Red Teaming –– Prompt Injection Scanner
 
 [English Version](README_EN.md)
 
