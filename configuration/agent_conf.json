@@ -1,0 +1,37 @@
+{
+  "agent_types": {
+    "api_agent": {
+      "description": "Generic AI Agent API Configuration",
+      "stream": "true",
+      "sign": "true",
+      "url": "https://ai.com/v1/chat/completion",
+      "RSA_PRIVATE_KEY": "",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "bearer .."
+      },
+      "body_content": {
+        "appId":"",
+        "messages":"[{\"role\":\"user\",\"content\":\"{user_input}\"}]",
+        "sign_type":"RSA2",
+        "stream": true,
+        "timestamp": "1750239839940",
+        "sign":"{sign_input}"
+      }
+    },
+
+    "openai_agent": {
+      "description": "OpenAI API Compatible Configuration",
+      "api_key": "",
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "model": "gemini-2.0-flash"
+    },
+
+    "ollama_agent": {
+      "description": "Ollama Local Model Configuration",
+      "base_url": "http://localhost:11434",
+      "model_name": "qwen3:32b-q4_K_M",
+      "endpoint": "/api/chat"
+    }
+  }
+}
