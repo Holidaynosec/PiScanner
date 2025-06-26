@@ -1,9 +1,9 @@
-# PiScanner - AI Red Teaming –– Prompt Injection Scanner
+# PiScanner - AI Red Teaming   –– Prompt Injection Scanner
 
 [English Version](README_EN.md)
 
 ## 概述
-是一款专为Generative AI APP设计的轻量化的 LLM 漏洞扫描与安全评估工具，致力于服务企业AI安全（AI-SDL）建设、AI红队、个人安全研究员。核心理念是："提示词即是攻击入口"。PiScanner通过分析与目标模型交互的提示词（Prompt）和响应（Response），系统性地发现和识别LLM应用中的潜在威胁。
+PiScanner 是一款专为Generative AI APP设计的轻量化的 LLM 漏洞扫描与安全评估工具，致力于服务企业AI安全（AI-SDL）建设、AI红队、个人安全研究员。核心理念是："提示词即是攻击入口"。PiScanner通过分析与目标模型交互的提示词（Prompt）和响应（Response），系统性地发现和识别LLM应用中的潜在威胁。
 
 **核心特性**
 PiScanner 检测的目标包含了Generative AI APP 封装性较强的API接口、模型技术提供者厂商兼容的openai的api、本地部署的ollama模型。可以用来甲方安全AI SDL建设（检测中小企业或个人研发的AI APP 的内容安全），也可以用来实验对抗性prompt的ASR（攻击成功率）。它探测提示词注入、数据泄露、越狱攻击、不合规内容生成、偏见歧视问题等等。
